@@ -4,7 +4,7 @@ conn = sqlite3.connect('databaseFile.db')
 cr = conn.cursor()
 
 cr.execute("""
-           CREATE TABLE IF NOT EXISTS movies (
+           CREATE TABLE IF NOT EXISTS question (
                id INTEGER PRIMARY KEY,
                title TEXT,
                director TEXT,
